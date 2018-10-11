@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+ </head>
+    <body>
+      <h1 id="dos"> Learning HTML/CSS </h1>
+      <div id="text-group1">
+      <img src="20170301155447.jpg" alt="web development" />
+      <p id="da"> Learning how to program may sound like a very difficult thing. 
+        Learning to code can be difficult, but if you start off easy, the rest will become a bit easier.
+        This is one of the reasons that I decided to learn HTML about a year ago.
+        I dropped learning it, though, and I had to re learn everything. 
+        This website is made with the HTML, CSS, and Javascript that I have learned since then. </p>
+        </div>
+      <script>
+
+      </script>
+    </body>
+</html>
