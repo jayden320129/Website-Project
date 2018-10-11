@@ -3,19 +3,18 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
- </head>
-    <body>
-      <h1 id="dos"> Learning HTML/CSS </h1>
-      <div id="text-group1">
-      <img src="20170301155447.jpg" alt="web development" />
-      <p id="da"> Learning how to program may sound like a very difficult thing. 
-        Learning to code can be difficult, but if you start off easy, the rest will become a bit easier.
-        This is one of the reasons that I decided to learn HTML about a year ago.
-        I dropped learning it, though, and I had to re learn everything. 
-        This website is made with the HTML, CSS, and Javascript that I have learned since then. </p>
-        </div>
-      <script>
-
-      </script>
-    </body>
+    <title>repl.it</title>
+    <style>
+    </style>
+  </head>
+  <body>
+    <h1 id="header"> Jayden's Blog </h1>
+    <div id="main-text">
+    <p id="paragraph-1"> Hello and this is the first blog post for this project! 
+      This is used to update on what I have learned in the programming world </p>
+      <p> Below are links to the other posts of this blog: </p>
+      <a href="HTML-CSS.html"> HTML/CSS </a>
+    </div>
+    <script></script>
+  </body>
 </html>
