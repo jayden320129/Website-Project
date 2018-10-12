@@ -4,6 +4,34 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <style>
+      body {
+        text-align: center;
+        background-color: rgb(244, 182, 66);
+      }
+
+      #dos {
+        background-color: white;
+      }
+
+      p {
+        text-align: center;
+        background-color: white;
+        margin-left: 450px;
+        margin-right: 20px;
+        
+      }
+
+      img {
+        width: 400px;
+        float: left;
+        margin: 20px;
+        border-style: solid;
+        border-color: black;
+      }
+
+      #text-group1 {
+        font-size: 25px;
+      }
     </style>
  </head>
     <body>
