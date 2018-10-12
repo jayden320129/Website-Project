@@ -11,6 +11,11 @@
 
       #dos {
         background-color: white;
+        margin-right: 1000px;
+        margin-left: 20px;
+        text-align: center;
+        border-style: solid;
+        border-width: 5px;
       }
 
       p {
@@ -27,15 +32,32 @@
         margin: 20px;
         border-style: solid;
         border-color: black;
+        border-width: 10px;
       }
 
       #text-group1 {
         font-size: 25px;
       }
+
+      #das {
+        background-color: white;
+      }
+
+      #resources {
+        text-align: center;
+        margin-right: 450px;
+        margin-left: 450px;
+      }
+
+      #main-page {
+        background-color: white;
+      }
     </style>
  </head>
     <body>
+      
       <h1 id="dos"> Learning HTML/CSS </h1>
+
       <div id="text-group1">
       <img src="20170301155447.jpg" alt="web development" />
       <p id="da"> Learning how to program may sound like a very difficult thing. 
@@ -43,8 +65,18 @@
         This is one of the reasons that I decided to learn HTML about a year ago.
         I dropped learning it, though, and I had to re learn everything. 
         This blog is made with the HTML, CSS, and Javascript that I have learned since then. </p>
+
+        <p id="web-development-definition"> HTML and CSS are used in web development. 
+          Web development is the act of creating pieces of software for the "web", or the internet.
+          According to <a href="https://en.wikipedia.org/wiki/Web_development"> this wikipedia article, </a>
+         web development is the work involved in developing a web site for the Internet (World Wide Web) or an intranet (a private network). 
+        </p>
+
+        <p id="resources"> You can start learning web development with online resources, such as <a href="https://www.khanacademy.org/"> Khan Academy </a>
+         or <a href="https://www.codecademy.com/learn/learn-html"> CodeCademy. </a> 
+        </p>
         </div>
-        <a href="index.html"> Back to Main Page </a>
+        <a href="index.html" id="main-page"> Back to Main Page </a>
       <script>
 
       </script>
