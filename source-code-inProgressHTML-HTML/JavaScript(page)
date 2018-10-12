@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <style>
+    </style>
+ </head>
+    <body>
+      <h1 id="heading"> JavaScript </h1>
+      <div id="main-text2">
+        <p> Javascript is the "de-facto" language of the internet. 
+          It's used to make webpages functional and more interactive. 
+          An example of javascript is below:
+          <button type="button" onclick="windowAlert()"> Click Here </button>
+      </div>
+      <script>
+        function windowAlert() {
+          window.alert("This is the power of Javascript!")
+        }
+      </script>
+    </body>
+</html>
