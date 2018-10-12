@@ -5,6 +5,18 @@
     <meta name="viewport" content="width=device-width">
     <title>repl.it</title>
     <style>
+     body {
+        background-color: rgb(244, 182, 66);
+        text-align: center;
+      }
+      #header {
+        background-color: white;
+      }
+
+      #main-text {
+        font-size: 25px;
+        background-color: white;
+      }
     </style>
   </head>
   <body>
