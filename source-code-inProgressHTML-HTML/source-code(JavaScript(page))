@@ -4,14 +4,58 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
     <style>
+      body {
+        background-color: rgb(244, 182, 66);
+      }
+
+      #heading {
+        background-color: white;
+        color: black;
+        text-align: center;
+        margin-left: 15px;
+        margin-right: 1175px;
+        border-style: solid; 
+        border-color: black;
+        border-width: 5px;
+        text-align: left;
+      }
+
+      #main-text1 {
+        background-color: white;
+        font-size: 25px;
+        margin-right: 25px;
+        margin-left: 600px;
+      }
+
+      img {
+        width: 500px;
+        float: left;
+        border-style: solid;
+        border-color: black;
+        border-width: 10px;
+      }
+
+      p {
+        margin-left: 15px;
+        margin-right: 15px;
+      }
+
+      button {
+        text-align: center; 
+        width: 400px;
+        font-size: 20px;
+        margin: 30px; 
+      }
     </style>
  </head>
     <body>
       <h1 id="heading"> JavaScript </h1>
-      <div id="main-text2">
+      <img src="1_H-25KB7EbSHjv70HXrdl6w.png" alt="Javascript logo"> 
+      <div id="main-text1">
         <p> Javascript is the "de-facto" language of the internet. 
           It's used to make webpages functional and more interactive. 
           An example of javascript is below:
+          <br> 
           <button type="button" onclick="windowAlert()"> Click Here </button>
       </div>
       <script>
