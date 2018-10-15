@@ -57,6 +57,12 @@
         float: right;
         font-size: 25px;
       }
+
+      #index {
+        background-color: white;
+        font-size: 25px;
+        text-align: ceneter;
+      }
     </style>
  </head>
     <body>
@@ -88,5 +94,7 @@
           window.alert("This is the power of Javascript!")
         }
       </script>
+
+      <a href="index.html" id="index"> Back to main page </a>
     </body>
 </html>
