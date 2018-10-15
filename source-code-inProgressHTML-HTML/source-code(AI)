@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {
+        background-color: rgb(244, 182, 66);
+        text-align: center;
+      }
+
+      img {
+        float: left;
+        border-style: solid;
+        border-color: black;
+        border-width: 10px;
+        width: 400px;
+        margin: 15px;
+      }
+
+      #header {
+        text-align: left;
+        border-style: solid;
+        border-width: 5px;
+        border-color: black;
+        background-color: white;
+        margin-right: 950px;
+      }
+
+      #paragraph1 {
+        background-color: white;
+      }
+
+      #fontsize {
+        font-size: 25px;
+        margin-left: 500px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="header"> Artificial Intelligence (AI) </h1>
+    <img src="_103051128_aiface2.gif" alt="AI" />
+    <div id="fontsize">
+    <p id="paragraph1"> Artificial Intelligence, according to <a href="https://en.wikipedia.org/wiki/Artificial_intelligence"> this Wikipedia article </a> is intelligence demonstrated by machines, in contrast to the natural intelligence displayed by humans and other animals. </p>
+    </div>
+    <script>
+
+    </script>
+  </body>
+</html>
