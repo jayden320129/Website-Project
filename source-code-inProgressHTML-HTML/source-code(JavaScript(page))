@@ -46,6 +46,17 @@
         font-size: 20px;
         margin: 30px; 
       }
+
+      #resources {
+        background-color: white;
+        text-align: center;
+        font-size: 25px;
+      }
+      
+      #paragraph2 {
+        float: right;
+        font-size: 25px;
+      }
     </style>
  </head>
     <body>
@@ -54,10 +65,24 @@
       <div id="main-text1">
         <p> Javascript is the "de-facto" language of the internet. 
           It's used to make webpages functional and more interactive. 
-          An example of javascript is below:
+          An example of javascript is below: </p>
           <br> 
           <button type="button" onclick="windowAlert()"> Click Here </button>
-      </div>
+          </div>
+          <p id="paragraph2"> Javascript is also a front-end programming language.
+            It let's you program alot of things. 
+            This is why it's one of the most popular programming languages
+            for beginning and intermediate programmers to learn (especially developers). </p>
+            <p> 
+      <p id="resources"> If you would like to learn Javascript, you can learn it with online resources. 
+        <br>
+        <b>Some of these resources are: </b>
+        <br>
+        <br>
+      <a href="https://javascript.info/"> The Modern Javascript Tutorial </a>
+      <br>
+      <a href="https://www.w3schools.com/js/"> w3schols Javascript Tutorial </a>
+      </p>
       <script>
         function windowAlert() {
           window.alert("This is the power of Javascript!")
