@@ -78,7 +78,15 @@
         </div>
         <a href="index.html" id="main-page"> Back to Main Page </a>
       <script>
-
+        let x = new Date();
+        if (x.getHours() < 12) {
+          alert("Good Morning!")
+        } else if (x.getHours() > 12 < 1) {
+          alert("Good Evening!")
+        } else {
+          alert("Good Night!")
+        };
       </script>
     </body>
 </html>
+  
