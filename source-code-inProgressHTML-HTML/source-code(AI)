@@ -85,6 +85,8 @@
        <br />
        <br />
        <a href="index.html"> Back to Main Page </a>
+       <br>
+       <br>
        <button id="infobutton" type="button" onclick="onClick()"> Click here for information about this page </button>
     </div>
     <script>
