@@ -33,16 +33,64 @@
         font-size: 25px;
         margin-left: 500px;
       }
+
+      #paragraph2 {
+        background-color: white;
+      }
+
+      #paragraph3 {
+        background-color: white;
+        font-size: 25px;
+      }
+
+      #paragraph4 {
+        background-color: white;
+        font-size: 25px;
+      }
+
+      #ending {
+        text-align: center;
+        background-color: white;
+      }
+
+      #infobutton {
+        background-color: white;
+        font-size: 25px;
+      }
     </style>
   </head>
   <body>
     <h1 id="header"> Artificial Intelligence (AI) </h1>
     <img src="_103051128_aiface2.gif" alt="AI" />
     <div id="fontsize">
-    <p id="paragraph1"> Artificial Intelligence, according to <a href="https://en.wikipedia.org/wiki/Artificial_intelligence"> this Wikipedia article </a> is intelligence demonstrated by machines, in contrast to the natural intelligence displayed by humans and other animals. </p>
+    <p id="paragraph1"> Artificial Intelligence, according to <a href="https://en.wikipedia.org/wiki/Artificial_intelligence"> this Wikipedia article </a> is:
+    <br>
+    <br>
+    <b> Intelligence demonstrated by machines, in contrast to the natural intelligence displayed by humans and other animals. </b></p>
+    
+     <p id="paragraph2">
+       Artificial Intelligence is basically just a program that demonstrates similar intelligence to that of a human or animal. 
+       These systems are very huge, complex strings and files of code. 
+       Basic AI can be conditional statements.
+     </p>
+     <p id="paragraph3">
+       These conditional statements can be written in various languages. They can be written in JavaScript, Python, pretty much any language that can stand by itself.
+     </p>
+     <p id="paragraph4">
+       You can't write a (very, very, very, very BASIC) AI program in HTML alone, since it is a markup language that has to work with CSS and JavaScript
+     </p>
+     <p id="ending"> To learn more about what AI is and what it can do, visit:
+       <br>
+       <a href="https://www.zdnet.com/article/what-is-ai-everything-you-need-to-know-about-artificial-intelligence/"> Zdnet AI </a>
+       <br />
+       <br />
+       <a href="index.html"> Back to Main Page </a>
+       <button id="infobutton" type="button" onclick="onClick()"> Click here for information about this page </button>
     </div>
     <script>
-
+      function onClick() {
+        alert("This page is about AI and what it can do. ")
+      }
     </script>
   </body>
 </html>
