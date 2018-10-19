@@ -24,11 +24,30 @@
       }
     </style>
   </head>
-    <body>
+    <body onload="onLoad()">
       <h1 id="heading"> Video Games </h1>
-      <p id="paragraph1"> 
-      <script>
+      <p id="paragraph1">Lot's of people play video games. 
+        Whether you like mainstream games like Call of Duty, 
+        to Indie games like Relic Hunters.
+      </p>
 
+      <p id="paragraph2">These types of games are made with different programming languages. 
+        For example, Call of Duty is programmed in C and C++. 
+        Indie games can be programmed in a variety of languages, ranging from JavaScript to Python.
+      </p>
+
+      <p id="paragraph3"></p>
+      <script>
+        function onLoad() {
+         let x = new Date().getHours
+         if (x == 12) {
+           alert()
+         } else if (x > 12) {
+           alert("Good Afternoon!")
+         } else {
+           alert("Good Morning!")
+         }
+        }
       </script>
     </body>
  
